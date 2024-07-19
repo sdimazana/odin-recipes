@@ -1,0 +1,152 @@
+* {
+    background-image: url(../images/hmm.jpg);
+    font-family: sans-serif;
+    color: black;
+    margin: 0px;
+}
+
+
+.header {
+    display: block;
+    background-image: none;
+    background-color: white;
+    height: 200px;
+    padding: 10px;
+}
+
+
+.header img {
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+.header h1, nav, a {
+    background-image: none;
+    display: inline-block;
+    background-color: white;
+}
+
+.header .title-one {
+    margin-right: 30px;
+}
+
+.title-one, .title-two {
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+.about {
+    margin-left: 35%;
+}
+
+.nav-buttons {
+    background-image: none;
+    background-color: white;
+    vertical-align: top; 
+    margin-top: -60px;
+    margin-left: 80%;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-image: none;
+    height: 100vh; 
+    width: 250px;
+    display: inline-block;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.sidebar img {
+    margin-left: 70%;
+    margin-top: 90%;
+    border: 2px solid;
+    border-color: black;
+}
+
+
+.vertical {
+    display: inline-block;
+    vertical-align: top;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 70px;
+    margin-left: 20%;
+    margin-top: 2%;
+    
+}
+
+.main {
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+.main .title {
+    display: inline-block;
+    font-size: 22px;
+}
+
+
+.ingredients .title {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 3px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.main .steps.title {
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+ol {
+    margin-left: -22px;
+}
+
+.picture-steps {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    margin-left: 5%;
+    margin-top: -2%;
+    overflow: hidden;
+}
+
+.notes {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+.notes li {
+    list-style-image: url(../images/sprout\ \(2\).png);
+    margin-left: 23px;
+}
+
+.notes h3 {
+    margin-bottom: 10px;
+}
+
+.reviews {
+    display: inline-block;
+    margin-left: -60%;
+}
+
+
+.reviews h2, p{
+    background-color: white;
+}
