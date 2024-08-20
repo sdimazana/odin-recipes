@@ -75,6 +75,11 @@ header {
     bottom: 20%;
 }
 
+.logo-text:hover,
+.recipes:hover {
+    font-weight: bold;
+}
+
 /*
     END OF HEADER STYLING
 */
@@ -107,6 +112,14 @@ header {
     border-style: solid;
     border-color: #30383A;
     border-width: 1px;
+}
+
+.recipe img:hover{
+    box-shadow: 5px 2px 2px #536166;
+}
+
+.recipe h6:hover {
+    font-weight: bold;
 }
 
 .divider {
@@ -160,6 +173,11 @@ header {
     margin-left: -48px;
     right: 7%;
     top: 50%;
+}
+
+.footer h6:hover,
+.footer p:hover {
+    font-weight: bold;
 }
 
 /*
