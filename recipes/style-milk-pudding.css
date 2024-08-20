@@ -25,7 +25,7 @@ h5 {
     color: #30383A;
     height: 32px;
     width: 104px;
-    margin: 184px 0px 24px 8px;
+    margin: 92px 0px 24px 8px;
 }
 
 h6 {
@@ -72,7 +72,12 @@ header {
     left: 5%;
 }
 
-.home {
+.logo-text:hover,
+.recipes:hover{
+    font-weight: bold;
+}
+
+.recipes {
     position: absolute;
     height: 24px;
     width: 88px;
@@ -159,7 +164,7 @@ ol {
 .images, .images-2 {
     width: 320px; 
     vertical-align: top;
-    margin-top: 256px;
+    margin-top: 192px;
 }
 
 .images-2{
@@ -214,6 +219,11 @@ ol {
     margin-left: -48px;
     right: 7%;
     top: 50%;
+}
+
+.footer h6:hover,
+.footer p:hover{
+    font-weight: bold;
 }
 
 /*
