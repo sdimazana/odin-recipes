@@ -29,6 +29,18 @@ h6 {
     color: #30383A;
 }
 
+p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #30383A;
+}
+
+/*
+    BEGINNING OF HEADER STYLING
+*/
+
 header {
     position: relative;
     height: 144px;
@@ -49,19 +61,17 @@ header {
     width: 256px;
     height: 88px;
     margin-top: -44px;
-    top: 50%;
+    bottom: 0%;
     left: 5%;
 }
 
-.home {
-    position: absolute;
-    height: 24px;
-    width: 88px;
-    text-align: center;
-    margin-top: -12px;
-    right: 5%;
-    top: 50%;
+.logo-text:hover {
+    font-weight: bold;
 }
+
+/*
+    END OF HEADER STYLING
+*/
 
 .title-text{
     width: 1048px;
@@ -97,8 +107,8 @@ header {
     color: #9cb6bf;
 }
 
-.nav .M,
-.nav .S {
+.nav #M,
+.nav #S {
     text-decoration: underline;
     color: #30383A;
 }
@@ -114,7 +124,6 @@ header {
 .recipe {
     display: inline-block;
     margin-top: 24px;
-    margin-right: 96px;
     height: 240px;
     width: 272px;
 }
@@ -126,6 +135,14 @@ header {
     border-width: 1px;
 }
 
+.recipe img:hover {
+    box-shadow: 5px 2px 2px #536166;
+}
+
+.recipe h6:hover {
+    font-weight: bold;
+}
+
 .letter-section {
     display: block;
     width: 1048px;
@@ -133,6 +150,12 @@ header {
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 80px;
+}
+
+.recipe-link{
+    margin-right: 96px;
+    display: inline-block;
+    width: 272px;
 }
 
 .footer{
@@ -164,4 +187,9 @@ header {
     margin-left: -48px;
     right: 7%;
     top: 50%;
+}
+
+.footer h6:hover,
+.footer p:hover{
+    font-weight: bold;
 }
