@@ -80,6 +80,11 @@ header {
     bottom: 20%;
 }
 
+.logo-text:hover,
+.recipes:hover{
+    font-weight: bold;
+}
+
 /*
     END OF HEADER STYLING
 */
@@ -141,6 +146,10 @@ header {
     margin-left: 224px;
 }
 
+.empty {
+    height: 800px;
+}
+
 /*
     BEGINNING OF FOOTER STYLING
 */
@@ -176,6 +185,11 @@ header {
     top: 50%;
     margin-top: -16px;
     margin-left: -48px;
+}
+
+.footer h6:hover,
+.footer p:hover {
+    font-weight: bold;
 }
 
 /*
