@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #FFF4E8;
+    font-family: "Overpass", sans-serif;
+}
+
+h2 {
+    font-family: "Overpass", sans-serif;
+    font-size: 91px;
+    font-weight: bold;
+    line-height: 104px;
+    color: #30383A;
+}
+
+h6 {
+    font-family: "Overpass", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #30383A;
+}
+
+p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #30383A;
+}
+
+/*
+    BEGINNING OF HEADER STYLING
+*/
+
+header {
+    position: relative;
+    height: 144px;
+    width: 100%;
+}
+
+.logo-text {
+    display: inline-block;
+    vertical-align: top;
+    height: 56px;
+    width: 144px;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.logo-set {
+    position: absolute;
+    width: 256px;
+    height: 88px;
+    margin-top: -44px;
+    bottom: 0%;
+    left: 5%;
+}
+
+.recipes {
+    position: absolute;
+    height: 24px;
+    width: 88px;
+    text-align: center;
+    margin-top: -12px;
+    right: 5%;
+    bottom: 20%;
+}
+
+.logo-text:hover,
+.recipes:hover {
+    font-weight: bold;
+}
+
+/*
+    END OF HEADER STYLING
+*/
+
+.main-content {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-title {
+    height: 80px;
+    width: 982px;
+    margin-top: 96px;
+}
+
+.main-content h6{
+    width: 720px;
+    height: 32px;
+    color: #cc3b27;
+    margin-top: 56px;
+    margin-left: 7px;
+}
+
+.qm-1,
+.qm-2,
+.qm-3,
+.qm-4 {
+    position: absolute;
+    display: inline-block;
+    color: #536166;
+    height: 128px;
+    width: 56px;
+    margin-top: -64px;
+    margin-left: -28px;
+}
+
+.qm-1 {
+    top: 568px;
+    left: 38%;
+    transform: rotate(-40.5deg);
+}
+
+.qm-2 {
+    top: 624px;
+    left: 65%;
+    transform: rotate(24deg);
+}
+
+.qm-3{
+    top: 824px;
+    left: 30%;
+    transform: rotate(-60deg);
+}
+
+.qm-4{
+    top: 776px;
+    left: 75%;
+    transform: rotate(50deg);
+}
+
+.cat-toast{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 656px;
+    width: 576px;
+    top: 552px;
+}
+
+.cat {
+    margin-top: 48px;
+    height: 800px;
+}
+
+/*
+    BEGINNING OF FOOTER STYLING
+*/
+
+
+.footer{
+    width: 100%;
+    height: 140px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #30383A;
+    position: relative;
+}
+
+.footer h6 {
+    display: inline-block;
+    height: 32px;
+    width: 168px;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    margin-left: -134px;
+    margin-top: -16px;
+}
+
+.footer p {
+    display: inline-block;
+    position: absolute;
+    height: 32px;
+    width: 96px;
+    margin-top: -16px;
+    margin-left: -48px;
+    right: 7%;
+    top: 50%;
+}
+
+.footer h6:hover,
+.footer p:hover {
+    font-weight: bold;
+}
+
+/*
+    END OF FOOTER STYLING
+*/
