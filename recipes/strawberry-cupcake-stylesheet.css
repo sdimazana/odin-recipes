@@ -34,7 +34,7 @@ header {
     left: 5%;
 }
 
-.home {
+.recipes {
     position: absolute;
     height: 24px;
     width: 88px;
@@ -44,11 +44,9 @@ header {
     bottom: 20%;
 }
 
-h6 {
-    font-family: "Overpass", sans-serif;
-    font-size: 23px;
-    font-weight: 500;
-    color: #30383A;
+.logo-text:hover,
+.recipes:hover{
+    font-weight: bold;
 }
 
 /*
@@ -81,6 +79,12 @@ h5 {
     margin: 0px 0px 24px 16px;
 }
 
+h6 {
+    font-family: "Overpass", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #30383A;
+}
 
 p, li {
     font-family: "Overpass", sans-serif;
@@ -208,6 +212,11 @@ p, li {
     margin-left: -48px;
     right: 7%;
     top: 50%;
+}
+
+.footer p:hover,
+.footer h6:hover{
+    font-weight: bold;
 }
 
 /*
