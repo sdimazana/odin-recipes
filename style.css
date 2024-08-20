@@ -48,6 +48,11 @@ p {
     font-style: normal;
     color: #30383A;
 }
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
   
 
 .header h6{
@@ -92,61 +97,52 @@ p {
 }
 
 .about {
-    margin-top: 10%;
-    width: 100%;
-    height: 584px;
-    position: absolute;
+    margin: 208px auto 208px auto;
+    width: 1104px;
+    height: 512px;
 }
 
 .about-text {
     display: inline-block;
     vertical-align: top;
-    margin-top: 192px;
-    width: 488px;
-    margin-left: 5%;
+    margin-top: 136px;
+    margin-left: 16px;
+}
+
+.about img {
+    vertical-align: top;
+    display: inline-block;
 }
 
 .about-text h3 {
     color: #4CAF00;
-    position: absolute;
-    top: 37%;
-    left: 40%;
-    margin-left: -116px;
-    margin-top: -36px;
     height: 72px;
     width: 232px;
 }
 
 .about-text p {
-    height: 128px;
-    width: 488px;
-    position: absolute;
-    left: 50%;
-    top: 59%;
-    margin-left: -244px;
-    margin-top: -64px;
+    margin-top: 8px;
+    height: 200px;
+    width: 336px;
 }
 
 .about .radish {
-    display: inline-block;
-    position: absolute;
-    margin-left: -248px;
-    left: 23%;
+    height: 512px;
+    width: 432px;
 }
 
 .about .persimmon {
-    vertical-align: top;
-    position: absolute;
-    right: 20%;
-    margin-left: -152px;
+    height: 208px;
+    width: 232px;
+    margin-top: 64px;
+    margin-left: 48px;
 }
 
 .about .avocado {
-    vertical-align: top;
-    position: absolute;
-    right: 20%;
-    top: 50%;
-    margin-left: -132px;
+    height: 152px;
+    width: 176px;
+    margin-left: -176px;
+    margin-top: 336px;
 }
 
 
@@ -155,7 +151,6 @@ p {
     height: 1000px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 45%;
 }
 
 .menu-buttons-title {
@@ -222,7 +217,7 @@ p {
 
 a {
     text-decoration: none;
-    width: 240px;
+    width: 120px;
 }
 
 .menu-buttons img,
@@ -251,6 +246,15 @@ a {
     margin-top: 35px;
     margin-left: 20px;
     margin-bottom: 8px;
+}
+
+.breakfast:hover,
+.lunch:hover,
+.dinner:hover,
+.appetizers:hover,
+.desserts:hover,
+.drinks:hover {
+    box-shadow: 5px 5px 5px #536166;
 }
 
 .lunch img {
